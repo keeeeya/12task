@@ -8,6 +8,6 @@
 ## ⚪︎課題の説明
 * Bookクラスに書籍を管理する情報（タイトル、著者、番号）を格納
 * Libraryクラスは「Bookクラスの情報に則したリスト」および「検索機能」を保持
-* MainのLibrary.Seachへ任意の文字を入力すると、検索結果を出力する
+* Mainのlibrary.seachへ任意の文字（keyword）を入力すると、検索結果を出力する
 ## ⚪︎出力結果
 <img width="1010" alt="スクリーンショット 2024-07-16 7 48 25" src="https://github.com/user-attachments/assets/1a4e99d9-c529-4f27-82fa-e4eb38b961db">
