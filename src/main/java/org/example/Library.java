@@ -18,17 +18,11 @@ public class Library {
       new Book("ドラゴンボール", "鳥山 明", 12),
       new Book("ハイキュー!", "古舘 春一", 13));
 
-  String keyWord;
 
-  public void Seach(String keyWord) {
-    this.keyWord = keyWord;
-  }
-
-
-  public void searchResult() {
+  public void search(String keyword) {
     List<String> bookList = books.stream()
         .filter(
-            result -> result.getTitle().contains(keyWord) || result.getAuthor().contains(keyWord))
+            result -> result.getTitle().contains(keyword) || result.getAuthor().contains(keyword))
         .map(result -> "タイトル：" + result.getTitle() + "　　作者：" + result.getAuthor() + "  No."
             + result.getNumber())
         .toList();

@@ -12,8 +12,7 @@ public class Main {
     // それをmainメソッドから実行して、実行結果をコンソールに出力する。
 
     Library library = new Library();
-    library.Seach("ト");
-    library.searchResult();
+    library.search("ト");
 
   }
 }
